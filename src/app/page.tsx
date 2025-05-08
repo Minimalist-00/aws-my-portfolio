@@ -1,8 +1,7 @@
 import Container from './components/Container';
-import EventsTimeline from './components/EventsTimeline';
 import ExperienceTimeline from './components/ExperienceTimeline';
 import Profile from './components/Profile';
-import { eventsData, experienceData, profileData } from './data/mockData';
+import { experienceData, profileData } from './data/mockData';
 
 export default function Home() {
   return (
@@ -19,9 +18,9 @@ export default function Home() {
             <ExperienceTimeline items={experienceData} title="Experience" />
           </div>
 
-          <div id="events" className="scroll-mt-20">
+          {/* <div id="events" className="scroll-mt-20">
             <EventsTimeline items={eventsData} title="Events & Awards" />
-          </div>
+          </div> */}
         </Container>
       </main>
 
