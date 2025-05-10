@@ -1,7 +1,7 @@
 import Container from './components/Container';
-import ExperienceTimeline from './components/ExperienceTimeline';
 import Profile from './components/Profile';
-import { experienceData, profileData } from './data/mockData';
+import Timeline from './components/Timeline';
+import { eventsData, experienceData, profileData } from './data/mockData';
 
 export default function Home() {
   return (
@@ -15,12 +15,12 @@ export default function Home() {
           </div>
 
           <div id="experience" className="scroll-mt-20">
-            <ExperienceTimeline items={experienceData} title="Experience" />
+            <Timeline items={experienceData} title="Experience" />
           </div>
 
-          {/* <div id="events" className="scroll-mt-20">
-            <EventsTimeline items={eventsData} title="Events & Awards" />
-          </div> */}
+          <div id="events" className="scroll-mt-20">
+            <Timeline items={eventsData} title="Events & Awards" />
+          </div>
         </Container>
       </main>
 
@@ -28,3 +28,4 @@ export default function Home() {
     </div>
   );
 }
+
