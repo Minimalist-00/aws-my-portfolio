@@ -1,7 +1,6 @@
 interface TimelineItem {
   date: string;
   title: string;
-  description: string;
   isHighlighted?: boolean;
 }
 
@@ -24,7 +23,7 @@ export default function Timeline({ items, title }: TimelineProps) {
             <div className="flex items-start">
               <div className="flex flex-col items-center">
                 <div className={`w-4 h-4 rounded-full ${item.isHighlighted ? 'bg-blue-500' : 'bg-gray-500'} z-10`} />
-                <div className="my-2 w-1 h-20 bg-gray-300" />
+                <div className="my-2 w-1 h-18 bg-gray-300" />
               </div>
 
               <div className="ml-8 flex flex-col">

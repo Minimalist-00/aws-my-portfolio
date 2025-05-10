@@ -54,9 +54,9 @@ export const experienceData = [
   },
   {
     date: "2025.04",
-    title: "富山県立大学 大学院 工学研究科 電子・情報工学専攻 博士前期課程 入学",
+    title: "富山県立大学 大学院 工学研究科 電子・情報工学専攻 修士課程 入学",
     description: "",
-    isHighlighted: false
+    isHighlighted: true
   },
 ];
 
@@ -70,31 +70,31 @@ export const eventsData = [
   },
   {
     date: "2023.06.17",
-    title: "サポーターズ 技育CAMPキャラバン@福岡",
+    title: "サポーターズ 技育CAMPキャラバン@福岡 優秀賞受賞",
     description: "",
     isHighlighted: true
   },
   {
     date: "2023.07.29",
-    title: "サポーターズ 技育CAMPキャラバン@金沢",
+    title: "サポーターズ 技育CAMPキャラバン@金沢 登壇",
     description: "",
     isHighlighted: false
   },
   {
     date: "2023.08.07 - 08.25",
-    title: "株式会社CARTA HOLDINGS サマーインターンシップ 【Treasure】",
+    title: "株式会社CARTA HOLDINGS インターンシップ",
     description: "株式会社CARTA HOLDINGSにて3週間のインターンシップに参加。前半で講義を受け、後半ではチームでの企画・開発を行い、最終発表ではフロントエンド賞を受賞しました。",
     isHighlighted: true
   },
   {
     date: "2023.08.12",
-    title: "サポーターズ 技育展",
+    title: "サポーターズ 技育展 登壇",
     description: "サポーターズ技育展にて登壇を行いました。",
     isHighlighted: false
   },
   {
     date: "2023.09.02",
-    title: "サポーターズ 技育CAMPアドバンス Vol.3",
+    title: "サポーターズ 技育CAMPアドバンス Vol.3 大賞受賞",
     description: "技育CAMPアドバンス Vol.3にて大賞（優勝）を受賞しました。",
     isHighlighted: true
   },
@@ -102,12 +102,12 @@ export const eventsData = [
     date: "2023.09.04 - 09.08",
     title: "エキサイト株式会社 インターンシップ",
     description: "エキサイト株式会社にて5日間のインターンシップに参加。ヘルスケア事業のお悩み相談サービスのレコメンドシステムをチームで企画・開発しました。",
-    isHighlighted: false
+    isHighlighted: true
   },
   {
     date: "2025.02.26",
     title: "UBI研究会 Japan UBI Symposium2025",
-    description: "UBI研究会 Japan UBI Symposium2025にて研究発表を行いました。",
+    description: "。",
     isHighlighted: true
   }
 ]; 
