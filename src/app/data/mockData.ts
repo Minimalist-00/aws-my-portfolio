@@ -66,42 +66,36 @@ export const eventsData = [
     date: "2023.04.27",
     title: "サポーターズ LT会 登壇",
     description: "",
-    isAward: false,
     isHighlighted: false
   },
   {
     date: "2023.06.17",
     title: "サポーターズ 技育CAMPキャラバン@福岡",
     description: "",
-    isAward: true,
     isHighlighted: true
   },
   {
     date: "2023.07.29",
     title: "サポーターズ 技育CAMPキャラバン@金沢",
     description: "",
-    isAward: false,
     isHighlighted: false
   },
   {
     date: "2023.08.07 - 08.25",
     title: "株式会社CARTA HOLDINGS サマーインターンシップ 【Treasure】",
     description: "株式会社CARTA HOLDINGSにて3週間のインターンシップに参加。前半で講義を受け、後半ではチームでの企画・開発を行い、最終発表ではフロントエンド賞を受賞しました。",
-    isAward: true,
     isHighlighted: true
   },
   {
     date: "2023.08.12",
     title: "サポーターズ 技育展",
     description: "サポーターズ技育展にて登壇を行いました。",
-    isAward: false,
     isHighlighted: false
   },
   {
     date: "2023.09.02",
     title: "サポーターズ 技育CAMPアドバンス Vol.3",
     description: "技育CAMPアドバンス Vol.3にて大賞（優勝）を受賞しました。",
-    isAward: true,
     isHighlighted: true
   },
   {
@@ -114,7 +108,6 @@ export const eventsData = [
     date: "2025.02.26",
     title: "UBI研究会 Japan UBI Symposium2025",
     description: "UBI研究会 Japan UBI Symposium2025にて研究発表を行いました。",
-    isAward: false,
     isHighlighted: true
   }
 ]; 

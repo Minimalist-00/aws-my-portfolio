@@ -2,7 +2,6 @@ interface TimelineItem {
   date: string;
   title: string;
   description: string;
-  isAward?: boolean;
   isHighlighted?: boolean;
 }
 
@@ -32,9 +31,6 @@ export default function Timeline({ items, title }: TimelineProps) {
                 <div className="text-sm text-gray-500 -mt-6">{item.date}</div>
                 <div className="flex items-center gap-2 flex-wrap">
                   <p className={`text-lg font-bold ${item.isHighlighted ? 'text-gray-900' : 'text-gray-500'}`}>{item.title}</p>
-                  {item.isAward && (
-                    <span className="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded whitespace-nowrap">AWARD</span>
-                  )}
                 </div>
               </div>
             </div>
