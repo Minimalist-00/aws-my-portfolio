@@ -11,7 +11,7 @@ export const profileData = {
 // 経歴データ
 export const experienceData = [
   {
-    date: "2021.4 - 現在",
+    date: "2021.4",
     title: "富山県立大学 工学部 情報システム工学科",
     description: "情報システムの設計と開発について学んでいます。特にユーザーインターフェース設計とWebアプリケーション開発に力を入れています。",
     isHighlighted: true
@@ -39,28 +39,82 @@ export const experienceData = [
     title: "富山県庁 DX推進サポーター",
     description: "富山県庁内で抱えている課題の改善（業務改善）を行っている。実際に県庁の方々とのヒアリング・ミーティングを行いながら、問題を根本から解決するために学生視点からの提案・解決を行っている。",
     isHighlighted: true
-  }
+  },
+  {
+    date: "2023.10 - 現在",
+    title: "岩本研究室 配属",
+    description: "",
+    isHighlighted: true
+  },
+  {
+    date: "2025.03",
+    title: "富山県立大学 工学部 情報システム工学科 卒業",
+    description: "",
+    isHighlighted: false
+  },
+  {
+    date: "2025.04",
+    title: "富山県立大学 大学院 工学研究科 電子・情報工学専攻 博士前期課程 入学",
+    description: "",
+    isHighlighted: false
+  },
 ];
 
 // イベントデータ
 export const eventsData = [
   {
-    date: "2023.8",
-    title: "サマーインターン「Treasure」",
+    date: "2023.04.27",
+    title: "サポーターズ LT会 登壇",
+    description: "",
+    isAward: false,
+    isHighlighted: false
+  },
+  {
+    date: "2023.06.17",
+    title: "サポーターズ 技育CAMPキャラバン@福岡",
+    description: "",
+    isAward: true,
+    isHighlighted: true
+  },
+  {
+    date: "2023.07.29",
+    title: "サポーターズ 技育CAMPキャラバン@金沢",
+    description: "",
+    isAward: false,
+    isHighlighted: false
+  },
+  {
+    date: "2023.08.07 - 08.25",
+    title: "株式会社CARTA HOLDINGS サマーインターンシップ 【Treasure】",
     description: "株式会社CARTA HOLDINGSにて3週間のインターンシップに参加。前半で講義を受け、後半ではチームでの企画・開発を行い、最終発表ではフロントエンド賞を受賞しました。",
     isAward: true,
     isHighlighted: true
   },
   {
-    date: "2023.9",
-    title: "サマーインターン「Booost!!!」",
+    date: "2023.08.12",
+    title: "サポーターズ 技育展",
+    description: "サポーターズ技育展にて登壇を行いました。",
+    isAward: false,
+    isHighlighted: false
+  },
+  {
+    date: "2023.09.02",
+    title: "サポーターズ 技育CAMPアドバンス Vol.3",
+    description: "技育CAMPアドバンス Vol.3にて大賞（優勝）を受賞しました。",
+    isAward: true,
+    isHighlighted: true
+  },
+  {
+    date: "2023.09.04 - 09.08",
+    title: "エキサイト株式会社 インターンシップ",
     description: "エキサイト株式会社にて5日間のインターンシップに参加。ヘルスケア事業のお悩み相談サービスのレコメンドシステムをチームで企画・開発しました。",
     isHighlighted: false
   },
   {
-    date: "2023.10 - 現在",
-    title: "岩本研究室 配属",
-    description: "大学研究室に配属され、UI/UXデザインと人工知能の応用研究に取り組んでいます。",
+    date: "2025.02.26",
+    title: "UBI研究会 Japan UBI Symposium2025",
+    description: "UBI研究会 Japan UBI Symposium2025にて研究発表を行いました。",
+    isAward: false,
     isHighlighted: true
   }
 ]; 
