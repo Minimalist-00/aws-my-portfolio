@@ -5,7 +5,7 @@ export const profileData = {
   description: "こんにちは！",
   imageUrl: "/myIcon.jpg",
   affiliation: "富山県立大学 電子・情報工学専攻 岩本・河崎研究室 M1",
-  tags: ["カメラ", "自己改善オタク", "スプラトゥーン5000時間プレイ", "Web開発", "カラオケ", "スノボ", "DUSTCELL"]
+  tags: ["カメラ", "自己改善オタク", "スプラトゥーン5000時間プレイ", "Web開発", "カラオケ", "スノボ", "DUSTCELL", "Mrs. GREEN APPLE"]
 };
 
 // 経歴データ
@@ -24,7 +24,7 @@ export const experienceData = [
   },
   {
     date: "2022.10 - 現在",
-    title: "学生団体「POLYGON」",
+    title: "学生団体「POLYGON」所属",
     description: "富山県立大学で情報分野に今日がある学生が集う学生団体です。プログラミングやデザインのスキルを高め合い、共同プロジェクトに取り組んでいます。",
     isHighlighted: true
   },
@@ -41,10 +41,16 @@ export const experienceData = [
     isHighlighted: true
   },
   {
-    date: "2023.10 - 現在",
+    date: "2023.10",
     title: "岩本研究室 配属",
     description: "",
     isHighlighted: true
+  },
+  {
+    date: "2024.4",
+    title: "主人公コミュニティ「onStage」所属",
+    description: "",
+    isHighlighted: false
   },
   {
     date: "2025.03",
