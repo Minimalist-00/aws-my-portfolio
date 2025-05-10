@@ -1,3 +1,7 @@
+# 🎨 My Portfolio Site
+
+This is my personal portfolio website built with Next.js, showcasing my projects and skills. ✨
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
